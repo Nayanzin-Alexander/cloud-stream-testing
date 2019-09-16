@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    addresses: localhost
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: output
+        input:
+          destination: input
